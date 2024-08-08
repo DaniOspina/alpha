@@ -87,7 +87,7 @@ $(window).on('load', function() {
     var count = 0;
 
     (function loop() {
-        var rand = Math.round(Math.random() * (5000 - 10000)) + 10000; // Entre 5 y 10 segundos
+        var rand = Math.round(Math.random() * (50000 - 10000)) + 10000; // Entre 5 y 10 segundos
         setTimeout(function() {
             if (count == users.length) { count = 0; }
             displayWinners(count);

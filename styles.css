@@ -88,6 +88,19 @@ img, svg {
     .barmodal {
         padding: 5px 7px;
     }
+    .barmodal .btn {
+        font-size: .9em;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) {
+    .barmodal p, .barmodal .fa-xmark {
+        font-size: .9em !important;
+        text-align: center;
+        margin-bottom: 1px;
+    }
 }
 .hidebar {
     bottom: -200px !important;
